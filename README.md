@@ -93,7 +93,97 @@ data-warehouse-project/
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
+# SQL Data Warehouse & Analytics Project
 
+An end-to-end SQL Server data engineering and analytics project
+implementing a modern Medallion Architecture.
+
+## 🚀 Overview
+
+This project demonstrates how raw CRM and ERP data can be
+ingested, cleaned, transformed, modeled, and analyzed using SQL Server.
+
+## 🏗️ Architecture
+
+Sources
+   ↓
+Bronze
+   ↓
+Silver
+   ↓
+Gold
+   ↓
+Analytics
+
+### Bronze
+Raw data ingestion from CRM and ERP CSV files.
+
+### Silver
+Data cleaning, standardization, validation, and transformation.
+
+### Gold
+Business-ready dimensional model using fact and dimension tables.
+
+## 📊 Projects
+
+### 1. Data Warehouse
+
+- SQL Server
+- ETL pipelines
+- Bronze/Silver/Gold architecture
+- Data cleansing
+- Data integration
+- Star schema
+- Data quality checks
+
+### 2. SQL Data Analytics
+
+- Customer analysis
+- Product analysis
+- Sales analysis
+- Time-series analysis
+- Ranking analysis
+- Segmentation
+- Performance analysis
+
+## 🛠️ Technologies
+
+- SQL Server
+- T-SQL
+- Git
+- GitHub
+- ETL
+- Data Modeling
+- Data Warehousing
+
+## 📁 Repository Structure
+
+...
+
+## ▶️ How to Run
+
+...
+
+## 📚 Documentation
+
+- Data Architecture
+- Data Flow
+- Data Integration
+- Data Model
+- ETL Methods
+- Data Catalog
+
+## 📈 Key Analytical Questions
+
+- Which products generate the most revenue?
+- Which customers contribute the most sales?
+- How do sales change over time?
+- Which product categories perform best?
+- Which customer segments have the highest value?
+
+## 👤 Author
+
+Lakshya Karkera
 
 
 
